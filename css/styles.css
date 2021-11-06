@@ -125,7 +125,6 @@ body {
 }
 
 .about-text {
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -164,7 +163,6 @@ body {
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -230,4 +228,39 @@ body {
 .footer-mail:hover,
 .footer-tel:focus {
     color: #2196F3;
+}
+
+
+
+/* ----------------------------PORTFOLIO--------------------------------- */
+.gallery-btn {
+    font-family: inherit;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+
+.gallery-btn:hover,
+.gallery-btn:focus {
+    color: var(--main-btn-color);
+    background-color: #2196F3;
+}
+
+.gallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+}
+
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
